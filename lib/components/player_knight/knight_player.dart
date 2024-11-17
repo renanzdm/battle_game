@@ -17,7 +17,7 @@ class KnightPlayer extends SimplePlayer with BlockMovementCollision {
         );
   @override
   Future<void> onLoad() async {
-    Future.delayed(const Duration(seconds: 5), () => add(RectangleHitbox(size: size * 0.7, position: Vector2(4, 4))));
+    add(RectangleHitbox(size: size * 0.7, position: Vector2(4, 4)));
     return super.onLoad();
   }
 }

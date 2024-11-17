@@ -16,7 +16,7 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return BonfireWidget(
-      // player: player,
+      player: player,
       // cameraConfig: CameraConfig(target: player),
       playerControllers: [
         Joystick(
